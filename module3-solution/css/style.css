@@ -1,0 +1,68 @@
+* {
+	font-family: 'Comic Sans MS', sans-serif;
+}
+.nav-link {
+	text-align: center;
+}
+@media (min-width:992px){
+	#navbarNav .nav-link{
+		display: none;
+	}
+}
+#navbarNav {
+	margin-top: 5px;
+}
+#navbarNav .navbar-nav .nav-link{
+	color: black;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.navbar {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+.navbar .navbar-brand {
+	font-size: 2em;
+	padding-left: 15px;
+	padding-bottom:10px;
+}
+.navbar-nav .nav-item {
+	width: 100%;
+}
+.menu {
+	text-align: center;
+	font-size: 2em;
+}
+
+.container {
+	margin-left: 15px;
+
+}
+#chicken, #beef, #sushi {
+	background: grey;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+.heading {
+	font-size: 1.8em;
+	text-align: center;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	#sushi {
+		width: 100%;
+
+	}
+}
+.data {
+	padding: 15px;
+}
+@media (min-width: 768px) {
+	.hidden-sm-up {
+		display: none;
+	}
+}
